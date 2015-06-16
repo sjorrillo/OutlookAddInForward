@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type='text/xsl' href='newVoiceMessage.xsl'?>
+<properties>
+  <anexo>649</anexo>
+  <usuarioAnexo>Javier Orrillo</usuarioAnexo>
+  <llamadaInterna>1</llamadaInterna>
+  <numeroTelefono>635</numeroTelefono>
+  <fechaLlamada>08/05/2015</fechaLlamada>
+  <horaLlamada>09:38 AM</horaLlamada>
+</properties>

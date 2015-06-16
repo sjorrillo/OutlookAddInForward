@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookAddInForward", "OutlookAddInForward\OutlookAddInForward.csproj", "{3728F7FB-4376-46C3-BFED-BD89F33F9136}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "OutlookAddInForwardSetup", "OutlookAddInForwardSetup\OutlookAddInForwardSetup.isproj", "{5B17C973-CF90-4C14-8969-868D7BD72E15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136} = {3728F7FB-4376-46C3-BFED-BD89F33F9136}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{3728F7FB-4376-46C3-BFED-BD89F33F9136}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.Debug|Any CPU.ActiveCfg = DVD-5
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.Debug|Any CPU.Build.0 = DVD-5
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.DVD-5|Any CPU.Build.0 = DVD-5
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.Release|Any CPU.ActiveCfg = SingleImage
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.Release|Any CPU.Build.0 = SingleImage
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{5B17C973-CF90-4C14-8969-868D7BD72E15}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
