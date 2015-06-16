@@ -15,7 +15,6 @@ namespace OutlookAddInForward
         #region Fields
 
         private const string PR_SMTP_ADDRESS = "http://schemas.microsoft.com/mapi/proptag/0x39FE001E";
-
         Outlook.NameSpace outlookNameSpace;
         Outlook.MAPIFolder inbox;
         Outlook.Items items;
